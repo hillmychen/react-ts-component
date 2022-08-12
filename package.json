@@ -1,0 +1,86 @@
+{
+  "name": "react-ts-component",
+  "publisher": "hillmychen",
+  "displayName": "react-ts-component",
+  "description": "A component generator using ReactJS and TypeScript",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Snippets",
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:react-ts-component.less",
+    "onCommand:react-ts-component.scss",
+    "onCommand:react-ts-component.taro-less",
+    "onCommand:react-ts-component.taro-scss"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "react-ts-component.less",
+        "title": "Create React Component (With Less)"
+      },
+      {
+        "command": "react-ts-component.scss",
+        "title": "Create React Component (With Scss)"
+      },
+      {
+        "command": "react-ts-component.taro-less",
+        "title": "Create React Component (With Taro and Less)"
+      },
+      {
+        "command": "react-ts-component.taro-scss",
+        "title": "Create React Component (With Taro and Scss)"
+      }
+    ],
+    "menus": {
+      "explorer/context": [
+        {
+          "when": "explorerResourceIsFolder",
+          "command": "react-ts-component.less",
+          "group": "A@1"
+        },
+        {
+          "when": "explorerResourceIsFolder",
+          "command": "react-ts-component.scss",
+          "group": "A@2"
+        },
+        {
+          "when": "explorerResourceIsFolder",
+          "command": "react-ts-component.taro-less",
+          "group": "A@3"
+        },
+        {
+          "when": "explorerResourceIsFolder",
+          "command": "react-ts-component.taro-scss",
+          "group": "A@4"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "node ./out/test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.70.0",
+    "@types/glob": "^7.2.0",
+    "@types/mocha": "^9.1.1",
+    "@types/node": "16.x",
+    "@typescript-eslint/eslint-plugin": "^5.31.0",
+    "@typescript-eslint/parser": "^5.31.0",
+    "eslint": "^8.20.0",
+    "glob": "^8.0.3",
+    "mocha": "^10.0.0",
+    "typescript": "^4.7.4",
+    "@vscode/test-electron": "^2.1.5"
+  }
+}
