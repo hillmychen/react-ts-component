@@ -1,6 +1,6 @@
 # react-ts-component
 
-根据模板生成 react 组件,语法支持 ts,样式支持 less/scss,平台支持 web/taro
+visual studio code 插件，根据模板生成 react 组件,语法支持 ts,样式支持 less/scss,平台支持 web/taro
 
 更多查看，[Repository](https://github.com/hillmychen/react-ts-component)
 
