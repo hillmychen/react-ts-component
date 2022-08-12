@@ -6,8 +6,6 @@
 
 ## Quick Start
 
-============
-
 1. 安装 react-ts-component 插件
 2. 任意选择某文件夹(仅支持文件夹下创建)，右键选择以下任意选项
    - Create React Component (With Less)
@@ -18,7 +16,6 @@
 
 ## Features
 
-=========
-![ 步骤一 ](https://raw.githubusercontent.com/hillmychen/react-ts-component/static/1.jpg)
-![ 步骤二 ](https://raw.githubusercontent.com/hillmychen/react-ts-component/static/2.jpg)
-![ 步骤三 ](https://raw.githubusercontent.com/hillmychen/react-ts-component/static/3.jpg)
+![ 步骤一 ](https://raw.githubusercontent.com/hillmychen/react-ts-component/master/static/1.jpg)
+![ 步骤二 ](https://raw.githubusercontent.com/hillmychen/react-ts-component/master/static/2.jpg)
+![ 步骤三 ](https://raw.githubusercontent.com/hillmychen/react-ts-component/master/static/3.jpg)
