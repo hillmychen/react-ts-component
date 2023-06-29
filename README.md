@@ -2,7 +2,9 @@
 
 visual studio code 插件，根据模板生成 react 组件,语法支持 ts,样式支持 less/scss,平台支持 web/taro
 
-更多查看，[Repository](https://github.com/hillmychen/react-ts-component)
+插件地址：[vscode市场](https://marketplace.visualstudio.com/items?itemName=hillmychen.react-ts-component)
+
+更多查看github：[Repository](https://github.com/hillmychen/react-ts-component)
 
 ## Quick Start
 
